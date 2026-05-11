@@ -14,7 +14,13 @@ export default function Navbar() {
   return (
     <nav>
       <div className="nav-logo">
-        <Image src="/logo.png" alt="ASN – Nusantara Cyber Accelerator" width={120} height={38} />
+        <Image
+          src="/logo.png"
+          alt="ASN – Nusantara Cyber Accelerator"
+          width={120}
+          height={38}
+          style={{ width: "auto" }}
+        />
       </div>
       <ul className="nav-links">
         {navLinks.map((link) => (

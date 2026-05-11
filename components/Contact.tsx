@@ -6,7 +6,7 @@ export default function Contact() {
       <div className="container">
         <div className="contact-box">
           <div className="contact-logo">
-            <Image src="/logo.png" alt="ASN" width={150} height={52} />
+            <Image src="/logo.png" alt="ASN" width={150} height={52} style={{ width: "auto" }} />
           </div>
           <div className="contact-kicker">TMMIN-CSIRT</div>
           <h2 className="contact-title">Contact Our Team</h2>

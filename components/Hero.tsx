@@ -9,14 +9,15 @@ export default function Hero() {
       <div className="hero-orb hero-orb-3"></div>
       <div className="hero-content">
         <div className="hero-logo">
-          <Image src="/logo.png" alt="ASN" width={200} height={72} />
+          <Image src="/logo.png" alt="ASN" width={200} height={72} priority style={{ width: "auto" }} />
         </div>
         <div className="hero-tag">
           <span className="hero-tag-dot"></span>
           Global Automotive OEM · CSIRT-led Program
         </div>
         <h1>
-          Supply Chain<br />
+          Supply Chain
+          <br />
           <em>Cyber Security</em>
           <br />
           Acceleration Program
