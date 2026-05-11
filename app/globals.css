@@ -516,8 +516,11 @@ section {
 /* ── MEASURES ── */
 .measures-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+}
+.measures-grid > :last-child:nth-child(3n + 1) {
+  grid-column: 2 / 3;
 }
 .measure {
   background: var(--card);
@@ -673,7 +676,7 @@ section {
 /* ── WFH ── */
 .wfh-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
 .wfh-card {
